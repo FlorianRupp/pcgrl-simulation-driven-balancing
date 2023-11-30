@@ -51,7 +51,7 @@ Cite this paper:
 }
 ```
 
-#### Joseph Suarez: The Neural MMO Environment
+#### Joseph Suarez: The Neural MMO Environment Baselines
 
 * The code in ```/gym_pcgrl/scripted``` is originally from the NMMO environment's official baselines [here](https://github.com/NeuralMMO/baselines) (MIT License).
 * For this research it has been extended and adjusted.
