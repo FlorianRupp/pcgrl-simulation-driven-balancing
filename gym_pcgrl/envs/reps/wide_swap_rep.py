@@ -69,7 +69,7 @@ class SwapRepresentation(Representation):
             return False, pos1x, pos1y
         
 class SwapWideLiteRepresentation(SwapRepresentation):
-    # same as swap, but here swap always if not tile types are the same
+    # same as swap, but here swap always also if tile types are not the same
     
     def get_action_space(self, width, height, num_tiles):
         return spaces.MultiDiscrete([width, height, width, height])

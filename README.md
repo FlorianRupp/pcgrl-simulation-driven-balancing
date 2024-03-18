@@ -2,20 +2,29 @@
 
 This is the code base for the paper of the same name.
 
-More information following soon.
+## Contributions
+* An architecture to simulation-driven balance game levels using the PCGRL framework.
+* A novel swap-based representation pattern for PCGRL.
+  * Implementations can be found in ```gym_pcgrl/envs/reps```
+* A study using a derived game setting from the NMMO environment.
+  * Implementations can be found in ```gym_pcgrl/envs/probs```
+
+
+A little demo notebook (```demo.ipynb```) is provided to give a broad overview of the code pipeline. Trained PPO models for balancing and initial map generation are in ```/models```.
+
+
+More information will follow.
 
 Cite this paper:
 
 ```
 @inproceedings{rupp_balancing_2023,
-      title={{Balancing} of competitive two-player {Game Levels} with {Reinforcement Learning}}, 
-      author={Florian Rupp and Manuel Eberhardinger and Kai Eckert},
-      year = {2023},
-      booktitle = {2023 IEEE Conference on Games (CoG)},
-      pages = {to appear},
-      eprint={2306.04429},
-      archivePrefix={arXiv}
-}
+  author={Rupp, Florian and Eberhardinger, Manuel and Eckert, Kai},
+  booktitle={2023 IEEE Conference on Games (CoG)}, 
+  title={Balancing of competitive two-player Game Levels with Reinforcement Learning}, 
+  year={2023},
+  pages={1-8},
+  doi={10.1109/CoG57401.2023.10333248}}
 ```
 
 
@@ -39,7 +48,7 @@ Cite this paper:
 
 #### Joseph Suarez: The Neural MMO Environment
 
-* The code in ```/nmmo``` is originally from the NMMO environment's official code base [here](https://github.com/NeuralMMO/environment), Version 1.6 (MIT License).
+* The used tiles in ```/gym_pcgrl/envs/probs/nmmo``` is originally from the NMMO environment's official code base [here](https://github.com/NeuralMMO/environment), Version 1.6 (MIT License).
 * For this research it has been extended and adjusted.
 
 ```
