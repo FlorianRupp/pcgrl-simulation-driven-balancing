@@ -7,10 +7,10 @@ This is the code base for the paper of the same name.
 * A novel swap-based representation pattern for PCGRL.
   * Implementations can be found in ```gym_pcgrl/envs/reps```
 * A study using a derived game setting from the NMMO environment.
-  * Implementations can be found in ```gym_pcgrl/envs/probs```
+  * Implementations for simulation and balancing using PCGRL can be found in ```gym_pcgrl/envs/probs```
 
 
-A little demo notebook (```demo.ipynb```) is provided to give a broad overview of the code pipeline. Trained PPO models for balancing and initial map generation are in ```/models```.
+The little demo notebook (```demo.ipynb```) gives a broad overview of the code pipeline used. Trained PPO models for balancing and initial map generation are in ```/models```.
 
 
 More information will follow.
