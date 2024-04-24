@@ -15,7 +15,7 @@ The little demo notebook (```demo.ipynb```) gives a broad overview of the code p
 
 More information will follow.
 
-Cite this paper:
+If you use this code, please cite this paper:
 
 ```
 @inproceedings{rupp_balancing_2023,
