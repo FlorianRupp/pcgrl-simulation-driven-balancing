@@ -2,6 +2,20 @@
 
 This is the code base for the paper of the same name.
 
+### TL;DR;
+* Balance a tile-based game level for 2 players with reinforcement learning by swapping tiles.
+* By playing the game multiple times with heuristic agents in simulations, the reinforcement learning
+agent learns which tile swaps are most beneficial.
+* Example: In this adapted game setting based within the NMMO environment, the players must forage
+for resources (water/blue and food/dark green) in order to survive longest. Stones/grey and water impede movement. 
+By swapping the highlighted tiles, the agent improved the balancing state.
+
+<div style="text-align:center;">
+    <img src="img/example_level.png" alt="Mage Economy" style="width: 54%; margin-right: 10px;">
+</div>
+
+
+
 ## Contributions
 * An architecture to simulation-driven balance game levels using the PCGRL framework.
 * A novel swap-based representation pattern for PCGRL.
@@ -10,10 +24,24 @@ This is the code base for the paper of the same name.
   * Implementations for simulation and balancing using PCGRL can be found in ```gym_pcgrl/envs/probs```
 
 
+### Architecture
+
+The architecture consists of 3 units:
+* A level generating unit.
+* The balancing unit based on PCGRL.
+* A simulator of the game using heuristic agents.
+
+<div style="text-align:center;">
+    <img src="img/Balancing_Architecture.png" alt="Mage Economy" style="width: 84%; margin-right: 10px;">
+</div>
+
+
+### Demo
+
 The little demo notebook (```demo.ipynb```) gives a broad overview of the code pipeline used. Trained PPO models for balancing and initial map generation are in ```/models```.
 
 
-More information will follow.
+## Bibliography
 
 If you use this code, please cite this paper:
 
