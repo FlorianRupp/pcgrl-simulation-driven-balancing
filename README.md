@@ -45,7 +45,8 @@ The little demo notebook (```demo.ipynb```) gives a broad overview of the code p
 * Computational effort due to the simulation step in each reward calculation.
 * Balancing is dependant on heuristic agents:
   * However, we can configure the balancing to balance e.g., for players of different skill or different types of players, mage vs. fighter, for instance.
-* Simulating the game can be considered as sampling from the distribution of the true win rate. 
+* Simulating the game can be considered as sampling from the distribution of the true win rate. How often to sample depends
+on the environment and heuristics which are used. We use a number of simulations between 10 and 20.
 
 ## Bibliography
 
