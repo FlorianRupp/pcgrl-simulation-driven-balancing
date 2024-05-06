@@ -8,12 +8,11 @@ This is the code base for the paper of the same name.
 agent learns which tile swaps are most beneficial.
 * Example: In this adapted game setting based within the NMMO environment, the players must forage
 for resources (water/blue and food/dark green) in order to survive longest. Stones/grey and water impede movement. 
-By swapping the highlighted tiles, the agent improved the balancing state.
+By swapping the highlighted tiles, the agent improved the balancing state:
 
 <div style="text-align:center;">
-    <img src="img/example_level.png" alt="Mage Economy" style="width: 54%; margin-right: 10px;">
+    <img src="img/example_level.png" alt="Mage Economy" style="width: 54%; display: block; margin-left: auto; margin-right: auto">
 </div>
-
 
 
 ## Contributions
@@ -40,6 +39,13 @@ The architecture consists of 3 units:
 
 The little demo notebook (```demo.ipynb```) gives a broad overview of the code pipeline used. Trained PPO models for balancing and initial map generation are in ```/models```.
 
+
+
+## Limitations
+* Computational effort due to the simulation step in each reward calculation.
+* Balancing is dependant on heuristic agents:
+  * However, we can configure the balancing to balance e.g., for players of different skill or different types of players, mage vs. fighter, for instance.
+* Simulating the game can be considered as sampling from the distribution of the true win rate. 
 
 ## Bibliography
 
