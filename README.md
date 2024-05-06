@@ -37,7 +37,7 @@ The architecture consists of 3 units:
 
 ### Demo
 
-The little demo notebook (```demo.ipynb```) gives a broad overview of the code pipeline used. Trained PPO models for balancing and initial map generation are in ```/models```.
+The little demo notebook (```balancing_demo.ipynb```) gives a broad overview of the code pipeline used. Trained PPO models for balancing and initial map generation are in ```/models```.
 
 
 
