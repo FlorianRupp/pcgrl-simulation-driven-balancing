@@ -50,9 +50,21 @@ on the environment and heuristics which are used. We use a number of simulations
 
 ## Bibliography
 
-If you use this code, please cite this paper:
+If you use this code, please use this for citations:
 
 ```
+Journal Paper:
+@article{rupp_simulation_2024,
+  author={Rupp, Florian and Eberhardinger, Manuel and Eckert, Kai},
+  journal={IEEE Transactions on Games}, 
+  title={Simulation-Driven Balancing of Competitive Game Levels with Reinforcement Learning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-11},
+  doi={10.1109/TG.2024.3399536}}
+
+Conference Paper:
 @inproceedings{rupp_balancing_2023,
   author={Rupp, Florian and Eberhardinger, Manuel and Eckert, Kai},
   booktitle={2023 IEEE Conference on Games (CoG)}, 
