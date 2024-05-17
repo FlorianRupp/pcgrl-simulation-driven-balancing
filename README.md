@@ -1,6 +1,6 @@
 # Simulation-Driven Balancing of competitive Game Levels with Reinforcement Learning
 
-This is the code base for the paper of the same name.
+This is the code base for the journal paper of the same name, published in the IEEE Transaction on Games.
 
 ### TL;DR;
 * Balance a tile-based game level for 2 players with reinforcement learning by swapping tiles.
