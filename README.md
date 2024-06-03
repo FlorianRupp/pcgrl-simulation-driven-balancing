@@ -11,7 +11,9 @@ for resources (water/blue and food/dark green) in order to survive longest. Ston
 By swapping the highlighted tiles, the agent improved the balancing state:
 
 <div style="text-align:center;">
+<p align="center">
     <img src="img/example_level.png" alt="Mage Economy" style="width: 54%; display: block; margin-left: auto; margin-right: auto">
+</p>
 </div>
 
 
@@ -31,7 +33,9 @@ The architecture consists of 3 units:
 * A simulator of the game using heuristic agents.
 
 <div style="text-align:center;">
+<p align="center">
     <img src="img/Balancing_Architecture.png" alt="Mage Economy" style="width: 84%; margin-right: 10px;">
+</p>
 </div>
 
 
