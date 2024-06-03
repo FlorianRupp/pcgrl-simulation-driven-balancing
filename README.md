@@ -6,7 +6,7 @@ This is the code base for the journal paper of the same name, published in the I
 * Balance a tile-based game level for 2 players with reinforcement learning by swapping tiles.
 * By playing the game multiple times with heuristic agents in simulations, the reinforcement learning
 agent learns which tile swaps are most beneficial.
-* Example: In this adapted game setting based within the NMMO environment, the players must forage
+* Example: In this adapted game setting based within the Neural MMO environment, the players must forage
 for resources (water/blue and food/dark green) in order to survive longest. Stones/grey and water impede movement. 
 By swapping the highlighted tiles, the agent improved the balancing state:
 
@@ -97,7 +97,7 @@ Conference Paper:
 }
 ```
 
-#### Joseph Suarez: The Neural MMO Environment
+#### Suarez et al.: The Neural MMO (NMMO) Environment
 
 * The used tiles in ```/gym_pcgrl/envs/probs/nmmo``` is originally from the NMMO environment's official code base [here](https://github.com/NeuralMMO/environment), Version 1.6 (MIT License).
 * For this research it has been extended and adjusted.
@@ -111,7 +111,7 @@ Conference Paper:
 }
 ```
 
-#### Joseph Suarez: The Neural MMO Environment Baselines
+#### Suarez: The Neural MMO Environment Baselines
 
 * The code in ```/gym_pcgrl/scripted``` is originally from the NMMO environment's official baselines [here](https://github.com/NeuralMMO/baselines) (MIT License).
 * For this research it has been extended and adjusted.

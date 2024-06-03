@@ -54,7 +54,7 @@ def ate_food(env, food_state):
 
 # use this for different players encodings and n players
 class NMMODiff(Problem):
-    def __init__(self, width=6, height=6, balancing=0.5, num_players=2, init_random_map=False, b_method=1, sim_runs=14,
+    def __init__(self, width=6, height=6, balancing=0.5, num_players=2, init_random_map=False, b_method=1, sim_runs=10,
                  **kwargs):
         self.num_players = num_players
         super().__init__()
