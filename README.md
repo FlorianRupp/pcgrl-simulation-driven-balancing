@@ -52,6 +52,17 @@ The little demo notebook (```balancing_demo.ipynb```) gives a broad overview of 
 * Simulating the game can be considered as sampling from the distribution of the true win rate. How often to sample depends
 on the environment and heuristics which are used. We use a number of simulations between 10 and 20.
 
+## Update June 2025
+* If you want to experiment with the code, we recommend using our reimplementation of the environment, Feast & Forage, along with the improved Markov decision process for balancing, which achieves better overall results and faster convergence during training.
+* This code can be found here: [https://github.com/FlorianRupp/feast-and-forage-env/blob/master/README.md](https://github.com/FlorianRupp/feast-and-forage-env/tree/master)
+
+
+## Further works:
+If you are further interested, further work using this code has been published:
+* Empirical evaluation with human playtesters: Florian Rupp, Alessandro Puddu, Christian Becker-Asano, and Kai Eckert. It might be balanced, but is it actually good? An Empirical Evaluation of Game Level Balancing. _2024 IEEE Conference on Games (CoG)_, Milan, Italy, pp. 1-4, August 2024. doi: 10.1109/CEC60901.2024.10612054
+* Balancing also for asymmetric setups: Florian Rupp and Kai Eckert. Level the Level: Balancing Game Levels for Asymmetric Player Archetypes With Reinforcement Learning. _Proceedings of the 20th International Conference on the Foundations of Digital Games (FDG)_, Graz, Austria, April 2025, doi: 10.1145/3723498.3723747.
+
+
 ## Bibliography
 
 If you use this code, please use this for citations:
